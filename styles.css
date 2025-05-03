@@ -1,5 +1,7 @@
+* {
+  box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
 .main {
   width: 200px;
   background-color: purple;
@@ -7,8 +9,10 @@
   padding: 10px;
 }
 
-.heading {
+#heading.heading {
   font-size: 20px;
   color: white;
   text-decoration: underline;
+  margin: 0; /* prevent margin from affecting test size */
 }
+
